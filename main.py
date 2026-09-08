@@ -9,6 +9,7 @@ def detect_lang(text):
     text = text.lower()
 
     # 알파벳의 출현 빈도
+    
     cnt = []
     for i in range(26):
       ch = chr(i + ord('a'))
